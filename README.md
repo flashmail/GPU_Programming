@@ -1,6 +1,6 @@
-# GPU Programming - 100 Days of CUDA & GPU Kernels
+# GPU Programming - CUDA & GPU Kernels
 
-A comprehensive collection of GPU programming implementations spanning 100 days of kernel development, organized by functionality. This repository showcases the evolution from basic linear algebra operations to advanced machine learning algorithms, all optimized for parallel execution on GPUs.
+This repository showcases the evolution from basic linear algebra operations to advanced machine learning algorithms, all optimized for parallel execution on GPUs.
 
 ## 📋 Project Overview
 
@@ -9,9 +9,6 @@ This project contains **100+ GPU kernels** implementing a wide range of algorith
 - **HIP** (AMD GPUs via ROCm) - Portable GPU implementations
 - **Triton** - High-level GPU programming abstractions
 - **cuBLAS/cuDNN** - Optimized library integrations
-
-Originally organized as daily challenges (Day 1-100), the code has been reorganized into **12 topic-based categories** for better discoverability and learning progression.
-
 ---
 
 ## 📁 Repository Structure
@@ -162,35 +159,8 @@ hipcc -O3 -o kernel kernel.cpp
 # Requires PyTorch/CuPy
 python torch_test.py
 ```
-
 ---
 
-## 📊 Learning Progression
-
-### Beginner (Days 1-10)
-- Basic vector operations
-- Simple matrix operations
-- Introduction to memory management
-
-### Intermediate (Days 11-30)
-- Convolution operations
-- Sorting algorithms
-- Graph algorithms
-- Sparse matrix operations
-
-### Advanced (Days 31-70)
-- Attention mechanisms
-- Neural network layers
-- Advanced optimizers
-- Specialized loss functions
-
-### Expert (Days 71-100)
-- Fused operations
-- Customized algorithms
-- Multi-GPU considerations
-- Performance optimization techniques
-
----
 
 ## 🎯 Key Algorithms Implemented
 
@@ -271,26 +241,6 @@ Benchmarking code is provided in `day 11/benchmark.py` for performance compariso
 
 ---
 
-## 🔧 Project Organization
-
-This repository was originally created as a **100-day GPU programming challenge**, with daily implementations in chronological folders (day 01, day 02, ... day 100). For improved accessibility, all kernels have been reorganized into **12 functional categories** to group related algorithms and make discovery easier.
-
-### From Daily to Categorical
-
-| Original | Reorganized | Purpose |
-|----------|------------|---------|
-| Days 1-2 | linear_algebra | Vector/matrix basics |
-| Days 3-4 | linear_algebra | Matrix operations |
-| Days 5, 13 | ml_kernels | Normalization & activation |
-| Days 7 | convolution | Convolution operations |
-| Days 9-10, 20 | attention | Transformer mechanisms |
-| Days 12 | sorting | Sorting algorithms |
-| Days 15, 19 | neural_networks | Deep learning layers |
-| Days 16, 22 | ml_algorithms | Optimization & ML |
-| Days 29-100 | Multiple | Advanced implementations |
-
----
-
 ## 💻 Platform Support
 
 | Platform | Language | Status |
@@ -328,5 +278,3 @@ For questions or suggestions about the GPU programming implementations, please r
 
 **Last Updated:** January 2026  
 **Total Kernels:** 100+  
-**GPU Programming Days Completed:** 100  
-**Categories:** 12
